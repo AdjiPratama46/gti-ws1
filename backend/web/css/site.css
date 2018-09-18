@@ -1,5 +1,7 @@
 html,
 body {
+    background-color: #5f2c82;
+    background-image: linear-gradient(to bottom right, #5f2c82, #49a09d);
     height: 100%;
 }
 
@@ -11,7 +13,7 @@ body {
 }
 
 .wrap > .container {
-    padding: 70px 15px 20px;
+    padding: 150px 15px 20px;
 }
 
 .footer {
@@ -117,4 +119,10 @@ a.desc:after {
 
 .nav > li > form > button.logout:focus {
     outline: none;
+}
+.tb-lgn{
+    padding: 25px !important;
+}
+.h1-lgn{
+    padding-bottom: 20px !important;
 }
